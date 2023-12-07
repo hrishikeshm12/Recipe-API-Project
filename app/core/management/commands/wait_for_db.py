@@ -1,3 +1,4 @@
+# flake8: noqa
 """
 Django command to wait for the datbase to be available.
 """
@@ -23,4 +24,3 @@ class Command(BaseCommand):
                 time.sleep(1)
         self.stdout.write(self.style.SUCCESS('Database available!'))
 
-        

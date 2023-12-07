@@ -1,4 +1,4 @@
-# pylint: disable=import-error
+# flake8: noqa
 """
 Sample Tests
 """
